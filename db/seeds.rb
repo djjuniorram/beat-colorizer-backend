@@ -7,6 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 SoundKit.destroy_all
+Beat.destroy_all
 
 sound_kits = [
     {
@@ -128,4 +129,94 @@ sound_kits = [
 }
 ]
 
+beats = [
+    {
+        'name': '82-BPM Drums',
+        'image': 'https://stockx.imgix.net/products/streetwear/Supreme-Pearl-Session-Studio-Select-Drum-Set-Red-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1561567003',
+        'source': 'DrumLoop'
+    },
+    {
+        'name': '84-BPM Hip Hop',
+        'image': 'https://stockx.imgix.net/products/streetwear/Supreme-Pearl-Session-Studio-Select-Drum-Set-Red-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1561567003',
+        'source': 'HipHopVanilla'
+    },
+    {
+        'name': '85-BPM Kick and Hat',
+        'image': 'https://stockx.imgix.net/products/streetwear/Supreme-Pearl-Session-Studio-Select-Drum-Set-Red-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1561567003',
+        'source': 'KickAndHat'
+    },
+    {
+        'name': '90-BPM Tabla Kick',
+        'image': 'https://stockx.imgix.net/products/streetwear/Supreme-Pearl-Session-Studio-Select-Drum-Set-Red-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1561567003',
+        'source': 'TablaAndDeepKick'
+    },
+    {
+        'name': '92-BPM Funky',
+        'image': 'https://stockx.imgix.net/products/streetwear/Supreme-Pearl-Session-Studio-Select-Drum-Set-Red-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1561567003',
+        'source': 'FunkySharp'
+    },
+    {
+        'name': '92-BPM Bass Guitar',
+        'image': 'https://stockx.imgix.net/products/streetwear/Supreme-Pearl-Session-Studio-Select-Drum-Set-Red-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1561567003',
+        'source': 'RagaGuitarBass'
+    },
+    {
+        'name': '94-BPM Two Tablas',
+        'image': 'https://stockx.imgix.net/products/streetwear/Supreme-Pearl-Session-Studio-Select-Drum-Set-Red-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1561567003',
+        'source': 'TwoTablas'
+    },
+    {
+        'name': '103-BPM Beat Box',
+        'image': 'https://stockx.imgix.net/products/streetwear/Supreme-Pearl-Session-Studio-Select-Drum-Set-Red-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1561567003',
+        'source': 'BeatBox'
+    },
+    {
+        'name': '111-BPM Conga Funk',
+        'image': 'https://stockx.imgix.net/products/streetwear/Supreme-Pearl-Session-Studio-Select-Drum-Set-Red-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1561567003',
+        'source': 'CongaFunk'
+    },
+    {
+        'name': '112-BPM Shackup',
+        'image': 'https://stockx.imgix.net/products/streetwear/Supreme-Pearl-Session-Studio-Select-Drum-Set-Red-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1561567003',
+        'source': 'Shackup'
+    },
+    {
+        'name': '116-BPM Silly Bongo',
+        'image': 'https://stockx.imgix.net/products/streetwear/Supreme-Pearl-Session-Studio-Select-Drum-Set-Red-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1561567003',
+        'source': 'SillyBongo'
+    },
+    {
+        'name': '121-BPM Timbale',
+        'image': 'https://stockx.imgix.net/products/streetwear/Supreme-Pearl-Session-Studio-Select-Drum-Set-Red-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1561567003',
+        'source': 'Timbale'
+    },
+    {
+        'name': '123-BPM BabyDee',
+        'image': 'https://stockx.imgix.net/products/streetwear/Supreme-Pearl-Session-Studio-Select-Drum-Set-Red-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1561567003',
+        'source': 'BabyDee'
+    },
+    {
+        'name': '132-BPM Electric Snare',
+        'image': 'https://stockx.imgix.net/products/streetwear/Supreme-Pearl-Session-Studio-Select-Drum-Set-Red-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1561567003',
+        'source': 'ElectricShushySnare'
+    },
+    {
+        'name': '134-BPM Electro',
+        'image': 'https://stockx.imgix.net/products/streetwear/Supreme-Pearl-Session-Studio-Select-Drum-Set-Red-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1561567003',
+        'source': 'BadElectro'
+    },
+    {
+        'name': '141-BPM Dark Echo Bass',
+        'image': 'https://stockx.imgix.net/products/streetwear/Supreme-Pearl-Session-Studio-Select-Drum-Set-Red-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1561567003',
+        'source': 'DarkEchoBass'
+    },
+    {
+        'name': 'Funky Drummer',
+        'image': 'https://stockx.imgix.net/products/streetwear/Supreme-Pearl-Session-Studio-Select-Drum-Set-Red-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1561567003',
+        'source': 'FunkyDrummer'
+
+    }
+]
+
 sound_kits.each{|kit| SoundKit.create(kit)}
+beats.each{|beat| Beat.create(beat)}
